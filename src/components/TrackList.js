@@ -11,6 +11,7 @@ function TrackList(props) {
             id = {track.id}
             previewUrl={track.preview_url}
             onPlayTrack = {props.onPlayTrack}
+            onAdd = {props.onAdd}
             />
   });
 

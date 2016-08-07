@@ -6,6 +6,7 @@ function Track(props) {
         <div className="Track-left">
           <div className="Track-number">{props.number + 1}.</div>
           <div className="Track-title">{props.title}</div>
+          <button onClick={() => {props.onAdd(props.id)}}>Add</button>
         </div>
         <div className="Track-duration">{props.duration}</div>
       </div>
